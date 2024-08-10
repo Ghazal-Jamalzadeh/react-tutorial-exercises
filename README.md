@@ -1,3 +1,19 @@
+#Create Commands 
+```angular2html
+npm create-react-app YOUR_PROJECT_NAME
+
+npm create vite@latest
+```
+
+#Run Commands 
+```angular2html
+npm install 
+
+npm run dev 
+
+npm start
+```
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
