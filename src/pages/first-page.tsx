@@ -26,7 +26,7 @@ export const FirstPage = () => {
             <p>Hello World!</p>
             <p>Images are loading 1...2...3 </p>
             <img src={image1} style={{width : 200 ,  height : 200 }}/>
-            <img src={image2}  style={{width : 200 ,  height : 200 }}/>
+            <img src={image2} style={{width : 200 ,  height : 200 }}/>
             <img src={image3}  style={{width : 200 ,  height : 200 }}/>
         </div>
     ) ;
