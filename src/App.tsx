@@ -1,11 +1,11 @@
 import './App.css'
-import {FirstPage} from "./pages/first-page.tsx";
+import FormHookExample from "./pages/form-hook-example.tsx";
 
 function App() {
 
   return (
 
-      <FirstPage/>
+      <FormHookExample/>
   )
 }
 
