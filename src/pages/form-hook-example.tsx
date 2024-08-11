@@ -1,6 +1,6 @@
 
 import {SubmitHandler, useForm} from "react-hook-form";
-import {PostModel} from "../model/post-model.tsx";
+import {PostModelForm} from "../model/post-model-form.tsx";
 
 enum GenderEnum {
     female="female",
@@ -18,7 +18,7 @@ function FormHookExample() {
 
 
 
-    const postFormHook = useForm<PostModel>();
+    const postFormHook = useForm<PostModelForm>();
     const {
         register  ,
         setFocus  ,
@@ -28,7 +28,7 @@ function FormHookExample() {
         reset ,
     } = postFormHook;
 
-    const submitHandler: SubmitHandler<PostModel> = (data) => {
+    const submitHandler: SubmitHandler<PostModelForm> = (data) => {
         console.log(data)
     };
 

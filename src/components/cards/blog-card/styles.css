@@ -1,0 +1,102 @@
+/* Blog Card Styles */
+.blog-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    margin-top: 48px  ;
+    justify-items: center;
+    justify-content: center;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Card Header */
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Avatar Styles */
+.avatar img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+
+/* User Info Styles */
+.user-info {
+    text-align: right;
+    margin-right: 10px;
+    flex-grow: 1;
+    direction: rtl; /* Set direction to RTL */
+}
+
+.username {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 0;
+    color: #333;
+}
+
+.post-info {
+    font-size: 0.9em;
+    color: #777;
+    margin: 5px 0 0;
+}
+
+/* Card Image */
+.card-image img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Card Footer */
+.card-footer {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+/* Small Gray Text */
+.small-text {
+    font-size: 1em;
+    color: #CECECE;
+    margin: 10px 0 10px;
+    text-align: right;
+}
+
+/* Footer Row */
+.footer-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align items from right to left */
+}
+
+/* Footer Icons */
+.orange-icon {
+    width: 20px;
+    height: 20px;
+    fill: #FA6D3A;
+    margin-left: 10px;
+}
+
+/* Footer Text */
+.footer-text {
+    font-size: 0.75em;
+    color: #777;
+    margin: 5px 10px;
+}

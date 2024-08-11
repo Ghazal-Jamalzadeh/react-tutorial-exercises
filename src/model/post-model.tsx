@@ -1,5 +1,8 @@
 export class PostModel {
-    title? : string ;
-    description? : string ;
-
+    id? : number ;
+    title? : string  ;
+    poster? : string ;
+    year? : string ;
+    country? : string ;
+    genres? : string[] ;
 }
