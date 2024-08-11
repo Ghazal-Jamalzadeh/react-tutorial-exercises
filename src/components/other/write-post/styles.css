@@ -1,0 +1,68 @@
+.post-box {
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    margin-top: 48px  ;
+    justify-items: center;
+    justify-content: center;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Card Header */
+.box-top {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.box-bottom{
+    display: flex;
+    align-items: center;
+    background-color: #FBFAF8;;
+    justify-content: start;
+    padding: 15px;
+}
+
+.box-bottom img{
+margin-right: 10px;
+}
+/* circle avatar */
+.avatar img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    align-items: center;
+    align-content: center;
+}
+
+/* Input Styles */
+.custom-input {
+    border: none; /* Removes the border */
+    outline: none; /* Removes the focus outline */
+    background-color: transparent; /* Makes the background transparent */
+    padding: 8px 12px; /* Adds padding for better spacing */
+    font-size: 1em; /* Adjust font size */
+    color: #333; /* Text color for input */
+    text-align: end;
+    width: 100%;
+
+}
+
+/* Placeholder (Hint) Text Styles */
+.custom-input::placeholder {
+    color: #888; /* Light gray color for placeholder text */
+    opacity: 1; /* Ensures full visibility of the placeholder */
+}
+
+
