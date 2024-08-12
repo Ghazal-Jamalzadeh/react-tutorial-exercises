@@ -1,0 +1,56 @@
+/* Container styling */
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Input styling */
+input[type="text"] {
+    width: 300px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #6c63ff;
+    outline: none;
+}
+
+/* Button styling */
+button {
+    width: 320px;
+    padding: 10px;
+    background-color: #6c63ff !important;  /* Purple background */
+    color: white;  /* White text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:disabled {
+    background-color: #ccc !important;  /* Grey background when disabled */
+    cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+    background-color: #5a54d4 !important;  /* Darker purple on hover */
+}
+
+/* Message styling */
+p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
