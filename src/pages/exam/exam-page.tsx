@@ -35,10 +35,9 @@ export function ExamPage() {
                         type="text"
                         value={inputValue}
                         onChange={handleInputChange}
-                        placeholder="Type something..."
+                        placeholder="10+ 15 = ?"
                     />
                     <button disabled={isLoading} onClick={handleSubmit}>Submit</button>
-
                 <p>{message}</p>
             </div>
         </>
