@@ -24,5 +24,19 @@ a ------------------------------------------------------------------------------
 b | strong | em | i ----------------------------------------------------------------------------------------------------
 هیچ فرقی با هم ندارند و صرفا اسم تگ ها متفاوت است
 
+a --------------------------------------------------------------------------------------------------------------------
+href------------------------------------
+empty : refresh page
+# : do not refresh - do not anything
+url : open url in current screen
+path : open another page
+#id : navigate to id on current page ->
+  آیدی ته یو آر ال صفحه قرار میگیرد. اگر این یو آر ال رو توی مرورگر بزنیم توی همونجای صفحه باز میشه
+  مناسب برای طراحی منو و فایل های آموزشی یا تیترهای مختلف
 
-
+target-----------------------------------
+_blank	Opens the linked document in a new window or tab
+_self	Opens the linked document in the same frame as it was clicked (this is default)
+_parent	Opens the linked document in the parent frame
+_top	Opens the linked document in the full body of the window
+framename	Opens the linked document in the named iframe
