@@ -40,3 +40,15 @@ _self	Opens the linked document in the same frame as it was clicked (this is def
 _parent	Opens the linked document in the parent frame
 _top	Opens the linked document in the full body of the window
 framename	Opens the linked document in the named iframe
+
+img---------------------------------------------------------------------------------------------------------------------
+alt---------------------------
+در صورت لود نشدن عکس متن را نمایش میدهد
+برای سءوی سایت خوبه
+دسترسی پذیری برای نابینایان
+
+Favi icon---------------------------------------------------------------------------------------------------------------
+این تک رو توی هدر قرار بدین
+    <link rel="icon" type="image/x-icon" href="../../assets/images/sonic.png">
+بهتره که با پسوند ico باشه
+سایت های کانورتر برای این این آیکون ها وجود داره
