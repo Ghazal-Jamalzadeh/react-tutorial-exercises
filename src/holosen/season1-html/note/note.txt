@@ -52,3 +52,44 @@ Favi icon-----------------------------------------------------------------------
     <link rel="icon" type="image/x-icon" href="../../assets/images/sonic.png">
 بهتره که با پسوند ico باشه
 سایت های کانورتر برای این این آیکون ها وجود داره
+
+table ------------------------------------------------------------------------------------------------------------------
+tr -> table row
+td -> table data
+th -> table header
+caption -> insert a description at the top of the table
+
+اگه بخوایم یک استایل خاصی رو به یک سری از ستون ها بدیم یک راهش اینه تک تک استایل بدیم بشون
+    <tr>
+        <th style="background-color: red">Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+
+    </tr>
+--------------------------
+راه بهتر استفاده از col & colGroup
+
+        <colgroup>
+            <col style="background-color: #8cff7f"/>
+            <col/>
+            <col/>
+        </colgroup>
+
+کل ستون اول از سه ستون جدول سبز میشود
+
+     <col style="background-color: coral" span="2"/>
+     دو تا ستون پشت سر هم این استایل رو میگیرند
+     دقیقا شبیه اینه که دو تا col با ویژگی یکسان پشت هم کپی کنیم
+
+---------------------------
+بهتره قسمتای مختلف جدول رو توی تگ های مرتبط بذاریم
+یعنی هر تگ tr توی بخشی که واقعا بهش تعلق داره قرار بگیره
+توی استایل دهی و این ها دستمون بازتر میشه و کلا خواناتر هم هست
+    <thead></thead>
+    <tbody></tbody>
+    <tfoot></tfoot>
+
+--------------------------
+        <th colspan="3" style="background-color: fuchsia">Description</th>
+به اندازه سه تا ستون رو در بر میگیره
+
