@@ -185,13 +185,23 @@
 <hr/>
 
 <form action="second-page.html" method="get">
-    <label for="firstName">First Name</label>
-    <input type="text" id="firstName" name="fName"/>
+    <label for="firstName" >First Name</label>
+    <input type="text" id="firstName" name="fName" required/>
 
     <br/>
 
     <label for="lastName">Last Name</label>
-    <input type="text" id="lastName" name="lName"/>
+    <input type="text" id="lastName" name="lName" required/>
+
+    <br/>
+
+    <label for="other">disabled</label>
+    <input type="text" id="other" name="not" disabled/>
+
+    <br/>
+
+    <label for="readOnly">Read only</label>
+    <input type="text" id="readOnly" name="readOnly" readonly value="Ghazal"/>
 
     </br>
 
@@ -202,6 +212,22 @@
     <input type="radio" id="female" name="gender" value="f"/>
 
     </br>
+
+    <select name="selectedItem" required >
+        <option disabled>choose one</option>
+        <option value="1">item1</option>
+        <option value="2">item2</option>
+        <option value="3" selected>item3</option>
+        <option value="4">item4</option>
+    </select>
+    </br>
+
+    <label for="address">Address</label>
+    <textarea id="address" name="address"></textarea>
+    </br>
+
+    <button>submit 2 </button>
+    <br/>
 
     <input type="submit" value="send"/>
 </form>
