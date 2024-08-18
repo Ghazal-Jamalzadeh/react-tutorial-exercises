@@ -93,3 +93,16 @@ caption -> insert a description at the top of the table
         <th colspan="3" style="background-color: fuchsia">Description</th>
 به اندازه سه تا ستون رو در بر میگیره
 
+List -------------------------------------------------------------------------------------------------------------------
+1- ordered list -> 1 2 3 4
+2- unordered list -> ....
+3- with detail
+
+ul -> un ordered list
+ol -> ordered list
+li -> list item
+dl -> description list
+dt -> description term
+dd -> description describe
+
+از تگ ul برای nav bar ها استفاده میشه
