@@ -1,0 +1,24 @@
+h1 {
+    color: coral;
+    font-size: 40px;
+}
+
+#red-text {
+    color: red;
+}
+
+.yellow-bg {
+    background: lemonchiffon;
+}
+
+article.green-article {
+    background: greenyellow;
+}
+
+*{
+    padding: 8px;
+}
+
+h1, h2 , p {
+    background-color: lightcyan;
+}
