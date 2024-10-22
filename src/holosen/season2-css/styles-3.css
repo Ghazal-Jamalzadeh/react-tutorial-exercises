@@ -1,0 +1,20 @@
+body{
+    background-color: #eefff2;
+}
+
+.main-div {
+    width: 300px;
+    height: 300px;
+}
+
+.bg-main {
+    background-color: cornflowerblue;
+}
+
+.bg-rgb {
+    background-color: rgb(255, 10 , 100);
+}
+
+.bg-rgba {
+    background-color: rgba(255 , 100 , 100 , 0.5);
+}
