@@ -163,3 +163,30 @@ header - form - table - aside - article - footer - section
 <nav> سمنتیک
 
 ولی در کل استفاده ازشون سلیقه ای هست و بیشتر همون دیو کاربرد داره
+
+Inline Block Tags--------------
+# block
+A block level element always start a new line
+کل فضای قابل دسترس را از نظر عرض اشغال میکنید
+یک مارجین افقی داره که اینلاین المنت ها ندارنش
+h - p - div - ol - li - form - table
+
+# inline
+دقیقا اندازه ای که هست جا میگیره
+از خط جدید شروع میشه
+span - image -
+
+File Path --------------------------
+ax.jpg -> dar haman folder
+/pic/ax.jpg -> az root address mide
+pic/ax.jpg -> folder tooye foldere feli
+../pic/ax.jpg -> bargard aghab
+
+Head -------------------------------
+The HTML <head> element is a container for the following elements: <title>, <style>, <meta>, <link>, <script>, and <base>.
+title : عنوانی که توی تب نشون میده از صفحه
+base : بیس یو ار ال لینک های اپ
+link : لینک کردن داکیومنت های استایل های سی اس اس
+meta : متادیتا ها
+script : برای جاوا اسکریپت
+style : برای سی اس اس نوشتن
