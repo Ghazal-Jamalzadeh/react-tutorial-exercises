@@ -86,3 +86,27 @@ hsl(HUE , saturation , lightness , alpha)
 Gradiants------------------
 search : css gradiant generator
 cssgradiant.io
+
+background --------------------------------------------------------
+  background-attachment: fixed;
+  عکس بک گراند هر چقدر هم بزرگ باشد با اسکرول ثابت خواهد ماند
+  در غیر این صورت وقتی به پایین اسکرول میکنیم عکس هم پایین می رود
+
+ background-position: top;
+ background-position: top center;
+ وقتی عکس از کادر بزرگتر است کدام قسمت عکس دیده شود
+
+ میشه به این شکل هم نوشتش
+     background-position-x: left;
+     background-position-y: bottom;
+
+ background-size: cover;
+ هز چقدر هم دور یا نزدیک بشیم کل عکس رو نشون میده
+
+  background-clip: content-box;
+  Value	Description	Demo
+  border-box	Default value. The background extends behind the border
+  padding-box	The background extends to the inside edge of the border
+  content-box	The background extends to the edge of the content box
+  initial	Sets this property to its default value. Read about initial
+  inherit	Inherits this property from its parent element. Read about inherit

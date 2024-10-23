@@ -1,5 +1,12 @@
 body{
     background-color: #eefff2;
+    background-image: url("../../assets/images/wall11.jpeg");
+    background-attachment: fixed;
+    /*background-position: top center;*/
+    background-repeat: repeat-y;
+    background-position-x: left;
+    background-position-y: bottom;
+    background-size: cover;
 }
 
 .main-div {
@@ -26,4 +33,11 @@ body{
 .bg-gradiant {
     background: rgb(82,58,180); // if the brower does not support gradiant
     background: linear-gradient(90deg, rgba(82,58,180,1) 11%, rgba(222,253,29,0.7007003484987745) 50%, rgba(252,69,116,0.5326331216080182) 76%);
+}
+
+.bg-image{
+    background: khaki;
+    background-image: url("../../assets/images/sonic.png");
+    background-repeat: repeat;
+    background-clip: content-box;
 }
