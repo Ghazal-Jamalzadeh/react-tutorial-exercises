@@ -1,3 +1,8 @@
+/* background */
+*{
+    margin : 0 ;
+    padding : 0 ;
+}
 body{
     background-color: #eefff2;
     background-image: url("../../assets/images/wall11.jpeg");
@@ -59,5 +64,21 @@ body{
     border-width:25px ;
     border-image: url("../../assets/images/wall2.jpg") 100 repeat;
     border-style: solid;
+}
+
+.red-outline{
+    border: 10px solid white;
+    padding: 50px;
+    margin-top: 50px;
+    outline: 10px solid darkred ;
+}
+
+textarea {
+    width : 200px ;
+    height: 300px;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 500px;
+    max-height: 500px;
 }
 
