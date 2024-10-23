@@ -18,3 +18,12 @@ body{
 .bg-rgba {
     background-color: rgba(255 , 100 , 100 , 0.5);
 }
+
+.bg-hsl {
+    background-color: hsl(800, 50%, 50%);
+}
+
+.bg-gradiant {
+    background: rgb(82,58,180); // if the brower does not support gradiant
+    background: linear-gradient(90deg, rgba(82,58,180,1) 11%, rgba(222,253,29,0.7007003484987745) 50%, rgba(252,69,116,0.5326331216080182) 76%);
+}

@@ -72,5 +72,17 @@ Hex-----------------------
 #RRGGBB = #000000 - #ffffff -> #ff0000 = red
 هشت رقم در مبنای 16 هست که دو تای اخری الفا هستن
 
+HSL----------------------
+hsl(HUE , saturation , lightness)
+hsl(0,100%,50%) -> red
+hue = رنگ
+lightness = 0% = black
+lightness = 100% = white
+hue = 800 900 ....
 
+HSLA-----------------------
+hsl(HUE , saturation , lightness , alpha)
 
+Gradiants------------------
+search : css gradiant generator
+cssgradiant.io
