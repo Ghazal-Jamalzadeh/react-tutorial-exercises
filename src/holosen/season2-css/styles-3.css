@@ -41,3 +41,23 @@ body{
     background-repeat: repeat;
     background-clip: content-box;
 }
+
+/* border */
+.border-red {
+    border: 6px solid red;
+    border-right: none;
+}
+
+.border-green {
+    border-width:8px ;
+    border-left-color: #FA6D3A;
+    border-style: solid;
+    border-radius: 50px;
+}
+
+.border-image {
+    border-width:25px ;
+    border-image: url("../../assets/images/wall2.jpg") 100 repeat;
+    border-style: solid;
+}
+

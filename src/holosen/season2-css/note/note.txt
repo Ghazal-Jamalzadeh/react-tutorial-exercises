@@ -110,3 +110,17 @@ background --------------------------------------------------------
   content-box	The background extends to the edge of the content box
   initial	Sets this property to its default value. Read about initial
   inherit	Inherits this property from its parent element. Read about inherit
+
+  --------------
+  body{
+      background-color: #eefff2;
+      background-image: url("../../assets/images/wall11.jpeg");
+      background-attachment: fixed;
+      /*background-position: top center;*/
+      background-repeat: repeat-y;
+      background-position-x: left;
+      background-position-y: bottom;
+      background-size: cover;
+  }
+
+  border-------------------------------------------------------------------------------
