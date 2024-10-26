@@ -1,3 +1,5 @@
+/**************combinator selectors******************/
+
 /* space means child */
 /* حتی وقتی فرزند غر مستقیم هم باشن اعمال میشه*/
 p span {
@@ -35,3 +37,91 @@ br + p {
 br ~ p {
     color: crimson;
 }
+
+/************* Sudo class selectors **************/
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: #5a54d4;
+}
+
+a:hover {
+    color: #FA6D3A;
+}
+
+/*وقتی روش کلیک میکنم و نگه میدارم*/
+a:active {
+    color: #3498db;
+}
+/* checked
+- active -
+disabled -
+empty -
+focus (bishtar rooye input ha) -
+in range -
+invalid - valid
+lang -
+link (maslan tag a ke halat link darad)
+ required (inputs)
+ optional (inputs)
+ range - out of reange
+ read only - read write
+ root (html)
+ target (#)
+ visited
+
+ */
+
+.my-div {
+background-color: #8cff7f;
+    border: 3px solid #3498db;
+    width: 300px;
+    height: 300px;
+}
+
+p:empty {
+    width: 200px;
+    height: 50px;
+    background-color: #FA6D3A;
+}
+
+.my-div:hover {
+    background-color: #125e07;
+}
+
+/* تگ های پی که اولین فرزند هستند */
+p:first-child {
+    background-color: #2cee1b;
+    color: white;
+}
+
+p:first-of-type{
+    font-size: 30px;
+}
+
+/* هر تگی که پی نیست*/
+:not(p) {
+    background-color: #c9a6a6;
+}
+
+/*تگ های پی که فرزند دوم هستند*/
+p:nth-child(2){
+    background-color: #1a1a1a;
+}
+
+/* تگ هایی که زوج هستن - کاربرد در تیبل ها*/
+p:nth-child(2n){
+    background-color: #1a1a1a;
+}
+
+p:nth-child(2n+1){
+    background-color: #bf259d;
+}
+
+
+
+
+
+
