@@ -1,0 +1,122 @@
+/* Text */
+@font-face {
+    font-family: myFirstFont;
+    src: url("IRsansBold.ttf");
+}
+.my-div {
+    background-color: #dddddd;
+    border: 3px solid #213547;
+    padding: 24px;
+    margin: 24px;
+    border-radius: 16px;
+}
+
+
+
+.my-div p  {
+    font-size: 24px;
+    color: #333;
+    text-align: justify;
+    /*text-decoration: line-through;*/
+    /*text-decoration: overline;*/
+    /*text-decoration: underline;*/
+    text-transform: capitalize;
+    /*    اولین حرف هر کلمه را بزرگ میکنه*/
+    /*    text-transform: uppercase;*/
+    /*    همه را حروف بزرگ میکند*/
+    /*    text-transform: lowercase;*/
+    text-indent: 50px;
+    /*    خط اول 50 تا میاد جلو*/
+    letter-spacing: 2px;
+    /*    فاصله بین حروف */
+    line-height: 50px;
+    /* فاصله بین خطوط */
+    word-spacing: 10px;
+    /* فاصله بین کلمات*/
+    /*white-space: normal;*/
+    /*  تکسن یک تکه بدون اینتر.اتفاقی نمی افته*/
+    /*white-space: nowrap;*/
+    /* خط که تموم شد حق نداری بشکنی بیای پایین*/
+    /*white-space: pre;*/
+    /* به ازای هر پاراگرف کلا حق نداری بیشتر از یک خط باشی*/
+    white-space: pre-line;
+    /*  اینتر میزنه    */
+
+    /* به صورت کلی تکست اور فلو توی دیوی که به اندازه تکست کش میاد تاثیری نداره و مال جاییه که جا تنگه*/
+
+}
+
+h1 {
+    text-shadow: -4px -4px yellow;
+    /*text-shadow: -4px -4px 10px yellow;*/
+    /*    عدد سوم مقدار محو شدن هست*/
+}
+
+.div-small {
+    width: 500px;
+    height: 200px;
+    background-color: #eefff2;
+    border: 3px solid #213547;
+    padding: 24px;
+    margin: 24px;
+    border-radius: 16px;
+     /*دقت کنید که اورفلو باید به کانتینر داده شود */
+     overflow:hidden;
+    /* ادامه سرریز را نشان نده*/
+    /*overflow: scroll;*/
+/*    - افقی و عمودی اسکرول بخور*/
+/*    overflow: clip;*/
+/*    شبیه هیدن هست*/
+/*    overflow: auto;*/
+/*    فقط عمودی اسکرول بخور*/
+/*    چیزی هم ست نکنیم کلا میزنه بیرون*/
+
+}
+
+.div-small p {
+    font-size: 24px;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflowed text */
+    /*text-overflow: ellipsis; !* Show ellipsis (...) for overflowed text *!*/
+    text-overflow: '###';
+/*   - توی فایرفاکس نمایش داده میشه فقط -  به جای سه نقطه هر کاراکتر دیگه میشه گذاشت*/
+}
+
+.div-small-2 {
+    width: 500px;
+    height: 200px;
+    background-color: #8780e3;
+    border: 3px solid #213547;
+    padding: 24px;
+    margin: 24px;
+    border-radius: 16px;
+    /*دقت کنید که اورفلو باید به کانتینر داده شود */
+    overflow:hidden;
+    /* ادامه سرریز را نشان نده*/
+    /*overflow: scroll;*/
+    /*    - افقی و عمودی اسکرول بخور*/
+    /*    overflow: clip;*/
+    /*    شبیه هیدن هست*/
+    /*    overflow: auto;*/
+    /*    فقط عمودی اسکرول بخور*/
+    /*    چیزی هم ست نکنیم کلا میزنه بیرون*/
+
+}
+
+.div-small-2 p {
+    font-size: 24px;
+    /*word-wrap: break-word;*/
+    /* کلمه بلند رو میشکنه میاد پایین*/
+    /*word-wrap: normal;*/
+/*    اگه کلمه بلند به اخر لاین برسه نمایش داده نمیشه ادامه ش*/
+/*    writing-mode: vertical-lr;*/
+/*   بالا به پایین میکنه خط ها رو*/
+/*    font-family: "Franklin Gothic Medium" ;*/
+    font-family: 'myFirstFont';
+    font-style: italic;
+
+
+}
+
+
+
