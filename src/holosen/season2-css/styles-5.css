@@ -163,6 +163,54 @@ h1::first-letter , h2::first-letter {
     font-size: 200%;
 }
 
+/***************** Attribute selectors *************************/
+/*تگ آ که تارگت آن بلنک است */
+/* تگ آ که تارگت دارد*/
+a[target] {
+    background-color: hotpink;
+}
+
+/*تگ آ که تارگت اون بلنک هست  */
+a[target="_blank"] {
+    background-color: yellow;
+}
+
+/*تمام تگ های آ که دارای این تایتل هستن*/
+h1[title="title1"]{
+    background-color: white;
+}
+
+/* تمام تگ های اچ که این کلمه توی تایتل اونا وجود داره*/
+h1[title ~= "test"]{
+    background-color: #125e07;
+}
+
+/* اتریبیوت تایتل با این مقدار شروع شده باشد*/
+h1[title ^= "title3"]{
+    background-color: #3498db;
+}
+
+/* اتریبیوت تایتل با این مقدار تمام شده باشد*/
+h1[title $= "title3"]{
+    background-color: #3498db;
+}
+
+
+/* این حرف توشون وجود داشته باشه کافیه*/
+h1[title *= "a"]{
+    background-color: #3498db;
+}
+
+
+
+*[id = 'felan']{
+
+}
+
+/*تگ پی که داخل فلان ایدی هست اگر هاور شد اسپن هاش فلان شکل شوند */
+.hi-div p:hover span {
+    background-color: yellow;
+}
 
 
 
