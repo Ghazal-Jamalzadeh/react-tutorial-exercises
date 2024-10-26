@@ -1,0 +1,48 @@
+ul {
+    font-size: 32px;
+    /*list-style-position: inside;*/
+    /*list-style-type: georgian;*/
+    /*list-style-image: url("../../assets/images/sonic.png");*/
+    list-style: none  ;
+}
+
+/* custom list style image */
+li:before {
+  content: '';
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 20px;
+    background-image: url("../../assets/images/sonic.png");
+    background-size: 100%;
+}
+
+.my-table {
+    border: 3px solid #5f79b0;
+    width: 100%;
+    max-width: 800px;
+    /*border-collapse: separate;*/
+    border-collapse: collapse;
+    /* وقتی کلپس است خط سفید بین آیتم ها را بر میدارد*/
+    margin : 0 auto;
+}
+
+.my-table th {
+    color: white;
+    background-color: #41baff;
+    text-align: left;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.my-table tr:nth-child(2n) {
+    background-color: #dbe5ee;
+    border: 1px solid #5f79b0;
+}
+
+.my-table td {
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
