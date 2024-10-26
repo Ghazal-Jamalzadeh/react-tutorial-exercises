@@ -1,0 +1,26 @@
+.orange-box {
+    background: url("../../../src/assets/images/wall11.jpeg");
+    border-radius: 10px 10px 0px 0px;
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    background-size: cover;
+}
+
+.item-box {
+    margin: 10px auto;
+    text-align: center;
+    border-radius: 15px;
+    width: 500px;
+    box-shadow:
+            50px 50px 50px 15px rgba(161, 149, 160, 0.22) ;
+            /*40px 40px 40px 15px rgba(222, 58, 208, 0.22),*/
+            /*30px 30px 30px 15px rgb(17, 255, 0),*/
+            /*20px 20px 20px 15px rgb(65, 234, 234);*/
+
+}
+
+.item-box > p {
+    font-size: 40px;
+    text-shadow: 10px 10px 10px #41eaea;
+}
