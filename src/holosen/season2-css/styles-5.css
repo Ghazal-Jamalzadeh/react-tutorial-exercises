@@ -120,7 +120,48 @@ p:nth-child(2n+1){
     background-color: #bf259d;
 }
 
+/****** Sudo elements :: ****************/
+/*
+before
+after
+first-letter
+first-line
+marker
+selction
+*/
 
+p::after{
+    content: "***";
+}
+/* در انتهای همه تگ های پی این کلمه را اضافه میکند*/
+
+p::before{
+    content: '+++';
+}
+
+p::first-letter{
+    color: yellow;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+
+p::first-line{
+    color: lightcoral;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+
+p::selection {
+    background-color: #FA6D3A;
+    color: #1a1a1a;
+}
+
+h1::first-letter , h2::first-letter {
+    color: red;
+    font-size: 200%;
+}
 
 
 
