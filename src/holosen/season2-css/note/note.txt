@@ -150,3 +150,16 @@ trbl
 Text-------------------------------------------------------------------------------------------
 Text align -> right - center - justify - start - end  ....
 راست چین چپ چین وسط چین ....
+
+Font Icon--------------------------------------------------------------------------------------
+پک های آیکون بسیار کم حجم برای استفاده در برنامه به جای استفاده از آیکون های تکی و حجیم
+https://fontawesome.com/search?m=free&o=r
+https://fontawesome.com/download
+زیپ را باز کنید و فولدر رو بندازید توی اسست ها
+این رو توی هد صفحه اضافه کنید
+    <link rel="stylesheet" href="../../assets/libs/fontawesome-free-6.6.0-web/css/all.css">
+    <i class="fa-solid fa-users"></i>
+    <i class="fab fa-amazon"></i>
+    <i data-fa-symbol="truck" class="fa-solid fa-truck fa-fw"></i>
+
+    نحوه استفاده از آیکون ها توی داکیومنت هاش هست
