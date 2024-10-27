@@ -85,3 +85,83 @@ height: 150px;
     border-radius: 50%;
     color: red;
 }
+
+/************* Animation ********************/
+
+div.my-div6 {
+    background-color: #41eaea;
+    width: 200px;
+    height: 100px;
+    margin: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    animation: div-6-anim;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    /*animation-iteration-count: 3;*/
+    animation-iteration-count: infinite;
+    /*animation-direction: normal;*/
+    animation-direction: reverse;
+
+/*    کل این ها رو میشه توی یک خط هم نوشت به صورت شرت هند*/
+}
+
+@keyframes div-6-anim {
+    from  {top: 0 ; right : 0 ; width: 200px ; height: 200px}
+    to{top: 100px ; right : 100px ; width: 400px ; height: 400px}
+
+}
+
+
+
+div.my-div7 {
+    background-color: #ec2929;
+    width: 200px;
+    height: 100px;
+    margin: 50px;
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    animation: div-7-anim;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    /*animation-iteration-count: 3;*/
+    animation-iteration-count: infinite;
+    /*animation-direction: normal;*/
+    animation-direction: reverse;
+
+    /*    کل این ها رو میشه توی یک خط هم نوشت به صورت شرت هند*/
+}
+
+@keyframes div-7-anim {
+    0%  {top: 200px ; right : 200px ; width: 200px ; height: 200px}
+    50%  {top: 300px ; right : 300px ; width: 200px ; height: 200px}
+    100%{top: 500px ; right : 500px ; width: 400px ; height: 400px}
+
+}
+
+
+
+div.my-div8 {
+    background-color: #1818da;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    animation: div-8-anim 2s linear infinite;
+
+}
+
+div.my-div8:before {
+    content: '';
+    background-color: #FA6D3A;
+    width: 300px;
+    height: 300px;
+}
+
+@keyframes div-8-anim {
+    from {opacity: 0}
+    to {opacity: 1}
+
+}
