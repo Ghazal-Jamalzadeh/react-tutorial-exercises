@@ -41,5 +41,47 @@ div.my-div4 {
 }
 
 div.my-div4:hover {
-    transform : matrix(1 , -0.3 , 0, 1 , 0, 0);
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+/************* Transition ********************/
+/* ترنسفرم ها یهویی هستن ولی ترنزیشن ها یواش و آهسته هستن*/
+
+div.my-div5 {
+    background-color: #5f79b0;
+    width: 200px;
+    height: 100px;
+    margin: 50px;
+    /*transition: all 1s linear;*/
+    /* دقت کنید این اتریبیوت رو به هاور ندادیم*/
+    /* لینیر یعنی سرعت در تمام مسیر یکی است*/
+
+    /*transition: all 1s ease;*/
+    /*     سرعت شروع و پایان کمتر است*/
+
+    /*transition: all 1s ease-in;*/
+    /* سرعت شروع کم است فقط*/
+
+    /*transition: all 1s ease-out;*/
+    /* سرعت پایان کم است فقط*/
+
+    /*-moz-transition:all 1s ease-in-out 3s ;*/
+    /*transition: all 1s ease-in-out 3s;*/
+    /* کلا ترنزیشن ها و این ها جوری هستن که باید اختصاصی برای موزیلا و ... نوشتشون*/
+
+/*    all ?
+یعنی تمام استایل ها. ولی میتونیم هم بگیم فقط بعضی از استایل ها
+*/
+
+transition: width 1s linear , height 2s linear 2s , transform 1s linear , border-radius 1s linear , color 2s linear ;
+    /*عرض با سرعت کم زیاد میشه ولی بقیه چیزها ناگهانی*/
+
+}
+
+div.my-div5:hover {
+transform: rotate(360deg);
+width: 300px;
+height: 150px;
+    border-radius: 50%;
+    color: red;
 }
