@@ -1,0 +1,25 @@
+/******************* Overflow *****************/
+.my-div {
+    width: 90%;
+    border: 3px solid orangered;
+    padding: 8px;
+    margin: 50px auto;
+    overflow: auto;
+    background-image: url("../../assets/images/wall2.jpg");
+    /*text-align: right;*/
+}
+
+.my-img {
+    opacity: 0.5;
+}
+
+.my-img:hover {
+    opacity: 1;
+}
+
+.my-img:hover .my-paragraf {
+    font-size: 50px;
+}
+
+
+
