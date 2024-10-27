@@ -1,0 +1,68 @@
+/******************* Responsive *****************/
+
+.main-section {
+    width: 70%;
+    display: inline-block;
+    background-color: #eeeeee;
+    padding: 20px;
+}
+
+.aside-section {
+    min-width: 15%;
+    width: 25%;
+    display: inline-block;
+    background-color: #454b41;
+    color: #eefff2;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 860px) {
+    .main-section {
+        width: 100%;
+        display: block;
+    }
+
+    .aside-section {
+        width: 100%;
+        display: block;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 500px) {
+    .main-section {
+        width: 100%;
+        display: block;
+        background-color: #eefff2;
+    }
+
+    .aside-section {
+        width: 100%;
+        display: block;
+        background-color: #125e07;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 900px) {
+    .main-section {
+        width: 70%;
+        display: inline-block;
+        background-color: #e197d1;
+    }
+
+    .aside-section {
+        width: 25%%;
+        display: inline-block;
+        background-color: #bf259d;
+    }
+
+
+}
+
+/* به طور کلی به جای این ویژگی ها از بوتسترپ استفاده میکنیم*/
