@@ -1,4 +1,4 @@
-/******************* Overflow *****************/
+/******************* Opacity *****************/
 .my-div {
     width: 90%;
     border: 3px solid orangered;
@@ -20,6 +20,8 @@
 .my-img:hover .my-paragraf {
     font-size: 50px;
 }
+
+
 
 
 
