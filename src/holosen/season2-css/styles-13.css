@@ -13,3 +13,12 @@ vh -> ertefae device
 vmin
 vmax
 */
+
+/***********CSS Functions*******************/
+
+.my-img {
+    /*width: 100%;*/
+    /*width: max(100% , 300px);*/
+    /*width: min(100% , 200px);*/
+    width: calc(100% - 200px)
+}
