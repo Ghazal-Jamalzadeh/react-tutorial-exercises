@@ -163,3 +163,5 @@ https://fontawesome.com/download
     <i data-fa-symbol="truck" class="fa-solid fa-truck fa-fw"></i>
 
     نحوه استفاده از آیکون ها توی داکیومنت هاش هست
+
+Display | Visibility --------------------------------------------------------------------------
