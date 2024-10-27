@@ -1,0 +1,45 @@
+/******************* Transforms *****************/
+div.my-div {
+    background-color: #8cff7f;
+    width: 200px;
+    height: 100px;
+    margin: 50px;
+}
+
+div.my-div:hover {
+    transform: rotate(20deg);
+}
+
+div.my-div2 {
+    background-color: #8780e3;
+    width: 200px;
+    height: 100px;
+    margin: 50px;
+}
+
+div.my-div2:hover {
+    transform: scale(120%);
+}
+
+div.my-div3 {
+    background-color: #e197d1;
+    width: 200px;
+    height: 100px;
+    margin: 50px;
+}
+
+div.my-div3:hover {
+    /*transform: translate(100px , 100px);*/
+    transform: translateX(100px);
+}
+
+div.my-div4 {
+    background-color: #bf259d;
+    width: 200px;
+    height: 100px;
+    margin: 50px;
+}
+
+div.my-div4:hover {
+    transform : matrix(1 , -0.3 , 0, 1 , 0, 0);
+}
