@@ -1,3 +1,7 @@
+
+
+![Resume](https://github.com/user-attachments/assets/fabc57b7-1ea5-4a9e-8720-3fe22643ce79)
+
 #Create Commands 
 ```angular2html
 npm create-react-app YOUR_PROJECT_NAME
