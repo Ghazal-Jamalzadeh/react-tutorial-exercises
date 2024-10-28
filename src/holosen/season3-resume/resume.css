@@ -11,6 +11,8 @@ src: url('../../assets/fonts/google/Ubuntu-Regular.ttf');
 body {
     background-color: #202124;
     font-family: 'my-google-font' ;
+    color: white;
+    word-wrap: break-word;
 }
 
 .container {
@@ -107,11 +109,47 @@ i.fa {
     color: #BB86FC ;
 }
 
-.title {
+.skills {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     padding: 16px;
     font-weight: bold;
+}
+
+.skill-item{
+    margin: 16px;
+}
+
+.progress-box {
+    background-color: #eeeeee;
+    border-radius: 16px;
+    width: 95%;
+    text-align: center;
+    margin: 16px ;
+    margin: 16px 0;
+}
+
+.progress-bar {
+    background-color: #BB86FC ;
+    padding: 4px;
+    border-radius: 16px;
+
+}
+
+.pb100 {
+   width: 100%;
+}
+
+.pb80 {
+   width: 80%;
+}
+
+.pb60 {
+   width: 60%;
+}
+
+.pb40 {
+   width: 40%;
 }
 
 
