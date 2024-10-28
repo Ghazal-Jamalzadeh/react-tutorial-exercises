@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'my-google-font' ;
+src: url('../../assets/fonts/google/Ubuntu-Regular.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #202124;
+    font-family: 'my-google-font' ;
+    color: white;
+    word-wrap: break-word;
+}
+
+p{
+    font-size: 16px;
+}
