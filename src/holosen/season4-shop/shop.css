@@ -104,3 +104,40 @@ nav ul li a {
     font-size: 32px;
 }
 
+#Compare {
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+.compare-card {
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;
+    min-width: 500px;
+    margin : 24px;
+}
+
+.img-compare {
+    height: 300px;}
+
+.color-circle {
+    display: inline-block;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin: 24px 1px;
+}
+
+.color-gray-light {
+    background-color: #cccccc;
+}
+.color-gray-dark{
+    background-color: #dddddd;
+}
+
+hr {
+    color: #cccccc;
+    margin: 32px auto;
+}
+
+
