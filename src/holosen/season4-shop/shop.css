@@ -15,6 +15,8 @@ body {
     vertical-align: top;
 }
 
+
+
 p{
     font-size: 16px;
 }
@@ -43,3 +45,62 @@ nav ul li a {
     color: #333333;
     font-size: 18px;
 }
+
+.main-title {
+    text-align: center;
+    font-size: 64px;
+    padding: 32px;
+}
+
+.top-container{
+
+    margin: 0 64px auto;
+    text-align: center;
+}
+.top-left {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.top-right {
+    display: inline-block;
+    width: 45%;
+    margin: 0 32px auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.margin16v{
+    margin: 16px 0;
+}
+
+.margin32v {
+    margin: 32px 0;
+}
+
+.margin64v{
+    margin: 64px 0;
+}
+
+.top-left img , .top-right img {
+    margin-bottom: 48px;
+}
+
+
+.model{
+    font-size: 24px;
+}
+
+.slogan{
+    margin-top: 16px;
+
+    font-size: 40px;
+}
+
+.price{
+    margin-top: 16px;
+    font-size: 32px;
+}
+
