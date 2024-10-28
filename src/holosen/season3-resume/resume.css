@@ -15,6 +15,10 @@ body {
     word-wrap: break-word;
 }
 
+p{
+    font-size: 16px;
+}
+
 .container {
     width: 98%;
     padding: 1%;
@@ -38,8 +42,8 @@ body {
 
 .right-side section {
     background-color: #303134;
-    height: 250px;
     margin-bottom: 2%;
+    padding: 24px;
 }
 
 footer {
@@ -116,6 +120,13 @@ i.fa {
     font-weight: bold;
 }
 
+.skills-main {
+    color: white;
+    font-size: 18px;
+    padding: 16px 0;
+    font-weight: bold;
+}
+
 .skill-item{
     margin: 16px;
 }
@@ -150,6 +161,21 @@ i.fa {
 
 .pb40 {
    width: 40%;
+}
+
+.margin16v{
+    margin: 16px 0;
+}
+
+.margin24v{
+    margin: 24px 0;
+}
+
+.label {
+    background-color: #BB86FC;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin: 0 4px;
 }
 
 
