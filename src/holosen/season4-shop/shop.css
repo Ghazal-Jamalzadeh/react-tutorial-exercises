@@ -9,12 +9,37 @@ src: url('../../assets/fonts/google/Ubuntu-Regular.ttf');
 }
 
 body {
-    background-color: #202124;
+    background-color: white;
     font-family: 'my-google-font' ;
-    color: white;
     word-wrap: break-word;
+    vertical-align: top;
 }
 
 p{
     font-size: 16px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(255,255,255,0.5);
+    top: 0;
+    z-index: 10;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
 }
