@@ -22,7 +22,6 @@ body {
     background-color: #303134;
     display: inline-block;
     width: 25%;
-    height: 450px;
     margin: 0.5%;
     vertical-align: top;
     /*میره میچسبه بالا*/
@@ -50,6 +49,11 @@ footer {
     color: white;
 }
 
+footer a {
+    color: white;
+
+}
+
 #profile-box {
     position: relative;
     border-radius: 5px;
@@ -72,8 +76,42 @@ footer {
     font-weight: bold;
 }
 
-footer a {
+.description-box ul {
+    list-style: none;
+    padding: 16px;
+}
+
+.description-box ul li {
+    margin:   16px 0;
+}
+
+.description-box ul li i.fa {
+    color: #BB86FC ;
+    font-size: 18px;
+}
+
+.description-box ul li span {
     color: white;
+    font-size: 16px;
+    margin-left: 10px;
 
 }
+
+hr {
+    margin: 0 16px auto;
+    color: #808080;
+
+}
+
+i.fa {
+    color: #BB86FC ;
+}
+
+.title {
+    color: white;
+    font-size: 20px;
+    padding: 16px;
+    font-weight: bold;
+}
+
 
