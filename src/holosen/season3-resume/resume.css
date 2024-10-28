@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'my-google-font' ;
+src: url('../../assets/fonts/google/Ubuntu-Regular.ttf');
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -5,6 +10,7 @@
 
 body {
     background-color: #202124;
+    font-family: 'my-google-font' ;
 }
 
 .container {
@@ -42,6 +48,28 @@ footer {
     text-align: center;
     padding: 20px 0;
     color: white;
+}
+
+#profile-box {
+    position: relative;
+    border-radius: 5px;
+}
+
+#profile-img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.profile-name {
+    background-color: rgba(0 , 0 , 0 , 0.4);
+    color: white;
+    text-align: center;
+    padding : 24px 0 ;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 footer a {
