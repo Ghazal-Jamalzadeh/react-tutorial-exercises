@@ -1,0 +1,18 @@
+/******************* Responsive *****************/
+
+.main-section {
+    width: 100%;
+    display: inline-block;
+    background-color: #eeeeee;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+.aside-section {
+    min-width: 15%;
+    width: 25%;
+    display: none;
+    background-color: #454b41;
+    color: #eefff2;
+    padding: 10px;
+}
